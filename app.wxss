@@ -1,0 +1,64 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('https://static.botue.com/paradise/fonts/icomoon.eot?lzaqut');
+  src: url('https://static.botue.com/paradise/fonts/icomoon.eot?lzaqut#iefix') format('embedded-opentype'),
+  url('https://static.botue.com/paradise/fonts/icomoon.ttf?lzaqut') format('truetype'),
+  url('https://static.botue.com/paradise/fonts/icomoon.woff?lzaqut') format('woff'),
+  url('https://static.botue.com/paradise/fonts/icomoon.svg?lzaqut#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bill:before {
+  content: "\e900";
+}
+.icon-car:before {
+  content: "\e901";
+}
+.icon-list:before {
+  content: "\e902";
+}
+.icon-cart:before {
+  content: "\e903";
+}
+.icon-top:before {
+  content: "\e904";
+}
+.icon-handset:before {
+  content: "\e905";
+}
+.icon-star:before {
+  content: "\e906";
+}
+.icon-money:before {
+  content: "\e907";
+}
+.icon-arrow:before {
+  content: "\e908";
+}
